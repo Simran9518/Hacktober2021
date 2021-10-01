@@ -32,7 +32,7 @@ def is_match(ch1, ch2):
 
 
 def is_balanced(pstr):
-    stack = Stack()
+    stack = Stack():
 
     for ch in pstr:
         if ch == '(' or ch =='[' or ch == '{':
